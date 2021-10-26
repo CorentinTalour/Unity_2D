@@ -13,6 +13,20 @@ public class PlayerHealth : MonoBehaviour
     public SpriteRenderer graphics;
     public HealthBar healthBar;
 
+    public static PlayerHealth instence;
+
+    // permet d'acceder a Incentory depuis n'importe qu'elle classe
+    private void Awake()
+    {
+        if (instence != null)
+        {
+            Debug.LogWarning("Il y a plus d'une instance de PlayerHealth dans la scène");
+            return;
+        }
+
+        instence = this;
+    }
+
     void Start()
     {
         currentHealth = maxHealth;
@@ -26,6 +40,21 @@ public class PlayerHealth : MonoBehaviour
         {
             TakeDommage(20);
         }
+    }
+
+    public void HealPlayer (int amout)
+    {
+        if((currentHealth + amout) > maxHealth)
+        {
+            currentHealth = maxHealth;
+        }
+        else
+        {
+            currentHealth += amout;
+        }
+
+        healthBar.SetHealth(currentHealth);
+
     }
 
      public void TakeDommage(int damage)
