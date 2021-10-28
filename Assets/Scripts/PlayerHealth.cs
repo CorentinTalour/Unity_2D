@@ -13,6 +13,8 @@ public class PlayerHealth : MonoBehaviour
     public SpriteRenderer graphics;
     public HealthBar healthBar;
 
+    public AudioClip hitSound;
+
     public static PlayerHealth instence;
 
     // permet d'acceder a Incentory depuis n'importe qu'elle classe
@@ -61,6 +63,7 @@ public class PlayerHealth : MonoBehaviour
     {
         if (!isInvincible)
         {
+            AudioManager.instence.PlayClipAt(hitSound, transform.position);
             currentHealth -= damage;
             healthBar.SetHealth(currentHealth);
 

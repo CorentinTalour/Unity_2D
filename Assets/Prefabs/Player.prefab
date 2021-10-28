@@ -137,16 +137,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d7282b94ed407c46bd31dd3b36e7b13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 350
+  moveSpeed: 250
+  climbSpeed: 175
   jumpForce: 350
   groundChek: {fileID: 5015513752962281648}
   groundCheckRaduis: 0.4
   collisionLayers:
     serializedVersion: 2
     m_Bits: 1
+  isClimbing: 0
   rb: {fileID: 5015513751448185594}
   animator: {fileID: 5015513751448185473}
   spriteRenderer: {fileID: 5015513751448185596}
+  playerCollider: {fileID: 5015513751448185595}
 --- !u!95 &5015513751448185473
 Animator:
   serializedVersion: 3
@@ -185,6 +188,7 @@ MonoBehaviour:
   isInvincible: 0
   graphics: {fileID: 5015513751448185596}
   healthBar: {fileID: 0}
+  hitSound: {fileID: 8300000, guid: c999f5801f76c4f4e9b9b973016f3fe8, type: 3}
 --- !u!1 &5015513752962281649
 GameObject:
   m_ObjectHideFlags: 0
