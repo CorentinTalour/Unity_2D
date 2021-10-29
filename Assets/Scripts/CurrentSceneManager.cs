@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class CurrentSceneManager : MonoBehaviour
 {
-    public bool isPlayerPresentByDefault = false;
     public int coinsPickdUpInThisSceneCount;
+    public Vector3 respwnPoint;
 
     public static CurrentSceneManager instence;
 
@@ -17,5 +17,7 @@ public class CurrentSceneManager : MonoBehaviour
         }
 
         instence = this;
+
+        respwnPoint = GameObject.FindGameObjectWithTag("Player").transform.position;
     }
 }
