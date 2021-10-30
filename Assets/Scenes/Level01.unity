@@ -4782,6 +4782,7 @@ GameObject:
   - component: {fileID: 483536610}
   - component: {fileID: 483536611}
   - component: {fileID: 483536612}
+  - component: {fileID: 483536609}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -4789,6 +4790,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &483536609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483536608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a003a5c8925a17744a0e5cd0edb33f3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &483536610
 Transform:
   m_ObjectHideFlags: 0
@@ -7686,7 +7699,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Level02
-  fadeSystem: {fileID: 0}
 --- !u!61 &2088249872
 BoxCollider2D:
   m_ObjectHideFlags: 0
