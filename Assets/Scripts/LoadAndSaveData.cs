@@ -31,6 +31,13 @@ public class LoadAndSaveData : MonoBehaviour
     public void SaveData()
     {
         PlayerPrefs.SetInt("coinsSave", Inventory.instence.coinCount);
+        
+
+        if(CurrentSceneManager.instence.levelToUnlock > PlayerPrefs.GetInt("LevelReachedSucceeded", 1))
+        {
+            PlayerPrefs.SetInt("LevelReachedSucceeded", CurrentSceneManager.instence.levelToUnlock);
+        }
+
         PlayerPrefs.SetInt("playerHealthSave", PlayerHealth.instence.currentHealth);
     }
 

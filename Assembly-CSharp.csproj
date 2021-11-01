@@ -72,11 +72,11 @@
     <Compile Include="Assets\Scripts\HealPowerUp.cs" />
     <Compile Include="Assets\Scripts\EnnemyPatrol.cs" />
     <Compile Include="Assets\Scripts\LoadSpecificScene.cs" />
+    <Compile Include="Assets\Scripts\LoadAndSaveData.cs" />
     <Compile Include="Assets\Scripts\PickUpObject.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\LevelSelector.cs" />
-    <Compile Include="Assets\LoadAndSaveData.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
