@@ -54,6 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\PickUpItem.cs" />
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\DeathZone.cs" />
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
@@ -79,10 +80,12 @@
     <Compile Include="Assets\Scripts\LoadAndSaveData.cs" />
     <Compile Include="Assets\Scripts\PickUpCoin.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\PlayerEffect.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\LevelSelector.cs" />
-    <Compile Include="Assets\Scripts\PickUpItem.cs" />
-    <Compile Include="Assets\Scripts\PlayerEffect.cs" />
+    <Compile Include="Assets\ShopTrigger.cs" />
+    <Compile Include="Assets\ShopManager.cs" />
+    <Compile Include="Assets\SellButtonItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
