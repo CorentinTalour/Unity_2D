@@ -1262,61 +1262,9 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1833575854}
-    - target: {fileID: 125405067291429660, guid: ab0c5869570367643a70540381fb60be, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CloseSettingsWindow
-      objectReference: {fileID: 0}
-    - target: {fileID: 125405067291429660, guid: ab0c5869570367643a70540381fb60be, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: MainMenu, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 125405067536542196, guid: ab0c5869570367643a70540381fb60be, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 125405067536542196, guid: ab0c5869570367643a70540381fb60be, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 125405067673525210, guid: ab0c5869570367643a70540381fb60be, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 125405067673525210, guid: ab0c5869570367643a70540381fb60be, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 125405068114324160, guid: ab0c5869570367643a70540381fb60be, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 125405068114324160, guid: ab0c5869570367643a70540381fb60be, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 125405068114324160, guid: ab0c5869570367643a70540381fb60be, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 125405068180020907, guid: ab0c5869570367643a70540381fb60be, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 125405068180020907, guid: ab0c5869570367643a70540381fb60be, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 125405068180020907, guid: ab0c5869570367643a70540381fb60be, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 125405068634388116, guid: ab0c5869570367643a70540381fb60be, type: 3}
       propertyPath: m_Name
       value: SettingsWindow
-      objectReference: {fileID: 0}
-    - target: {fileID: 125405068634388116, guid: ab0c5869570367643a70540381fb60be, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 125405068634388117, guid: ab0c5869570367643a70540381fb60be, type: 3}
       propertyPath: m_Pivot.x
@@ -1352,7 +1300,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 125405068634388117, guid: ab0c5869570367643a70540381fb60be, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 280
+      value: 373.5906
       objectReference: {fileID: 0}
     - target: {fileID: 125405068634388117, guid: ab0c5869570367643a70540381fb60be, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1388,7 +1336,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 125405068634388117, guid: ab0c5869570367643a70540381fb60be, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 9.3714
+      value: -37.423874
       objectReference: {fileID: 0}
     - target: {fileID: 125405068634388117, guid: ab0c5869570367643a70540381fb60be, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
